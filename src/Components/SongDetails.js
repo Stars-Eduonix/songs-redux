@@ -4,7 +4,7 @@ import { useSelector } from "react-redux"
 
 const SongDetails = () => {
 
-    const selectedSong = useSelector(state => state)
+    const selectedSong = useSelector(state => state.selectedSong)
     console.log(selectedSong)
 
 
